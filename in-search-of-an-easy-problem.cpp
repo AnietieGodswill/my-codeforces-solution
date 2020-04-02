@@ -9,7 +9,7 @@ int main()
 	
 	for(int i=0; i<n; i++) {
 		cin>>k;
-		maxno = max(curMax, k);
+		maxno = max(maxno, k);
 	}
 	if(maxno > 0) {
 		cout<<"Hard";
